@@ -5,14 +5,14 @@ import 'leaflet/dist/leaflet.css';
 
 // Custom icon configuration
 const customIcon = L.icon({
-  iconUrl: '../src/map/mapicons.png', // Specify the path to your custom image
-  iconSize: [32, 32], // Specify the size of the icon
-  iconAnchor: [16, 32], // Specify the anchor point of the icon
+  iconUrl: '../src/map/mapicons.png', // Check if this path is correct
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
 });
 
 function Map() {
-  const [position, setPosition] = useState([0, 0]); // Default position
-  
+  const [position, setPosition] = useState([0, 0]);
+
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
@@ -27,7 +27,7 @@ function Map() {
       console.log("Geolocation not supported");
     }
   }, []);
-  
+
   return (
     <div>
       <MapContainer center={position} zoom={3} style={{ width: '100%', height: '100vh' }}>

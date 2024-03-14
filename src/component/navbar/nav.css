@@ -4,6 +4,7 @@ nav {
     background-color: #212330;
     padding: 30px 20px 30px 20px;
     position: fixed;
+    width: 230px;
     height: 100vh;
 }
 
@@ -20,6 +21,10 @@ nav {
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+}
+
+.nav-grp-2 span a {
+    color: white;
 }
 
 .nav-grp-2 span {

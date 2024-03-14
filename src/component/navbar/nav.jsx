@@ -10,7 +10,7 @@ function Nav() {
 
             <div className="nav-grp-2">
                 <span> <img src=".\asset\home.svg" alt="home logo" /> <p>Home</p> </span>
-                <span> <img src=".\asset\location.svg" alt="" /> <p>Map</p></span>
+                <span> <img src=".\asset\location.svg" alt="" /> <a href="/map"><p>Map</p></a> </span>
                 <span> <img src=".\asset\save-location.svg" alt="" /> <p>Saved Location</p></span>
                 <span> <img src=".\asset\settings.svg" alt="" /> <p>Setting</p></span>
             </div>

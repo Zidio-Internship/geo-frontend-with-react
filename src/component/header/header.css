@@ -2,10 +2,9 @@ header {
     background-color: #212330;
     color: white;
     padding: 12px;
-    width: 100%;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 12px;
     border-radius: 12px;
 }
