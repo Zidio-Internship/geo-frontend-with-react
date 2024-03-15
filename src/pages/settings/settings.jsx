@@ -13,7 +13,7 @@ import Dark from "./images/retro.png";
 import Retro from "./images/dark retro.png";
 import Apply from "./images/Apply.png";
 
-function settings() {
+function Settings() {
   return (
     <body>
       <header>
@@ -94,4 +94,4 @@ function settings() {
   );
 }
 
-export default settings;
+export default Settings;
