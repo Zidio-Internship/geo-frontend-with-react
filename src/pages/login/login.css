@@ -1,0 +1,131 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 370px;
+    background: rgb(1, 11, 22);
+    color: rgb(196, 227, 236);
+    border-radius: 4px;
+    padding: 10px 20px;
+    height: 400px;
+
+}
+
+.wrapper h1 {
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 5%;
+    
+}
+
+.wrapper h4 {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: white;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 70%;
+    height: 30px;
+    margin: 37px 0;
+}
+.input-box input {
+    width: 130%;
+    height: 100%;
+    background: transparent;
+    border: solid rgb(17, 39, 39);
+    border-radius: 10px;
+    font-size: 10px;
+    color: rgb(250, 251, 252);
+    padding: 20px 20px 20px 10px;
+}
+
+.input-box input::placeholder {
+    color: azure;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: -37px;
+    top: 40%;
+    transform: translate(-40%);
+    font-size: -10px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11.5px;
+    margin: -10px 0 10px;
+}
+
+.remember-forgot label input {
+    accent-color: lightgrey;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 35px;
+    background: rgb(58, 138, 230);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(75, 107, 168, 0.1);
+    cursor: pointer;
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+    background-position: center;
+}
+
+.wrapper .register-link {
+    font-size: 13px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+body {
+    
+    font-family: 'poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    
+    
+
+}
