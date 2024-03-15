@@ -88,7 +88,7 @@
 }
 
 .crd-3 {
-    width: 47%;
+    width: 48%;
 }
 
 .crd-4 {
@@ -100,7 +100,6 @@
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     padding: 10px;
     gap: 15px;
@@ -109,6 +108,10 @@
 .card-main-2 div {
     display: flex;
     gap: 15px;
+}
+
+.card-main-2 div img {
+    width: 80px;
 }
 
 .nvme div {
