@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background: #0d0d13;
+}
+
+section {
+  background: #212330;
+  width: fit-content;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  margin-left: 8%;
+}
+
+header {
+  display: flex;
+  padding-left: 4%;
+  gap: 19rem;
+  background: #212330;
+  padding-top: 1rem;
+  margin-left: 4%;
+  padding-right: 5%;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.name {
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ezra {
+  position: relative;
+}
+
+.del {
+  position: absolute;
+  left: 4%;
+  top: 35%;
+}
+
+.btt {
+  position: relative;
+}
+
+.alt {
+  position: absolute;
+  left: 4%;
+  top: 23%;
+}
+
+.add {
+  font-size: 11px;
+}
+
+.oppo {
+  display: flex;
+  padding-left: 8%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 53rem;
+}
+
+.src {
+  display: flex;
+  gap: 10px;
+}
+
+.css {
+  width: 50%;
+}
+
+.bean {
+  display: flex;
+  gap: 1rem;
+  padding-left: 7%;
+  padding-top: 2rem;
+}
+
+.beans {
+  display: flex;
+  gap: 1rem;
+  padding-left: 7%;
+  padding-top: 2rem;
+}
+
+.vector {
+  padding-left: 3rem;
+  width: 100%;
+}
+
+.aza {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 15px;
+  padding-left: 4%;
+  padding-top: 1rem;
+}
+
+.pin {
+  font-size: 10px;
+}
+
+.man {
+  display: flex;
+  gap: 12rem;
+  padding-bottom: 1rem;
+}
+
+.display {
+  color: #fff;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.app {
+  width: 110%;
+}
+
+.codex {
+  display: flex;
+  padding-left: 3rem;
+  gap: 47rem;
+}
+
+.code {
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  top: 30%;
+  left: 83%;
+}
+
+.npm {
+  width: 11rem;
+  height: 2rem;
+  background: #303343;
+  color: #fff;
+  font-size: 11.5px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding-right: 25px;
+}
+
+.srcc {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background: #f14141;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 13px;
+  padding-left: 18px;
+}
+
+.set {
+  font-size: 20px;
+  color: #fff;
+}
+
+.bright {
+  font-size: 14px;
+  color: #fff;
+}
+
+.input1 {
+  width: 20rem;
+  height: 2rem;
+  padding-left: 40px;
+  border-radius: 5px;
+  background: inherit;
+  border: 1px solid #434557;
+  color: #fff;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+}
+
+.divv {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+}
+
+.brigh {
+  font-size: 11px;
+  color: #b3b6c4;
+}
+
+@media screen and (max-width:600px){
+  header{
+    gap: 12px;
+    padding-right: 1px;
+  }
+
+  .codex{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1rem;
+    padding-left: 2rem;
+  }
+
+  .btn{
+    width: 8.5rem;
+  }
+
+  .oppo{
+    gap: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .bean{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  .beans{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  .use{
+    width: 30%;
+    height: 90%;
+  }
+
+  .usee{
+    width: 35%;
+    height: 90%;
+  }
+
+  .man{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  section{
+    padding-right: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .input1{
+    width: 12rem;
+  }
+
+  .set{
+    font-size: 13px;
+    padding-top: 9px;
+  }
+
+  .bright{
+    font-size: 10px;
+  }
+
+  .brigh{
+    font-size: 7px;
+  }
+
+  .aza{
+    gap: 10px;
+    padding-left: 10%;
+  }
+
+  .add{
+    font-size: 10px;
+  }
+
+  .vector{
+    width: 90%;
+    padding-left: 2rem;
+  }
+
+  .adde{
+    font-size: 15px;
+  }
+
+  .pawn{
+    display: flex;
+    padding-left: 1.2rem;
+  }
+
+  .css{
+    width: 90%;
+  }
+
+  .src{
+    gap: 3px;
+    padding-top: 5px;
+  }
+
+  .srcc{
+    padding-top: 10px;
+  }
+
+  .display{
+    padding-top: 10px;
+    padding-left: 2rem;
+  }
+
+  .app{
+    width: 90%;
+    margin-left: 1rem;
+  }
+}
