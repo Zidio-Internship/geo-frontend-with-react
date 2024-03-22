@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'login'
 import './login.css';
 import { FaUser, FaLock } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
